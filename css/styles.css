@@ -135,92 +135,9 @@ h1{
     margin-right: 5%;
 }
 
-
-#Caracteristicas{
-    display: flex;
-    flex-direction: row;
-    margin: 15% 3%;
-    
-}
-.Carac img {
-    margin: 0 auto;
-} 
-
-.Carac{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 3%;
-}
-.Carac p{
-    font-size: 1.3em;
-}
-.Carac h2{
-    font-size: 1.5em;
-}
 h2{
     font-size: 36px;
     color:#607C3C;
     text-wrap: pretty;
     text-align:left;
-}
-
-.ganar-recompensas{
-    font-weight: bold;
-    color:#ABC32F;
-}
-
-#Nosotros{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#Nosotros h2{
-    margin: 0 auto;
-}
-#Nosotros >p{
-    margin: 1% 2%;
-    font-weight: 500;
-}
-.Clase-nosotros{
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    margin: 3% 3%;
-}
-.Salvador,.Diego,.Jesus{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 3%;
-}
-.Clase-nosotros p{
-    margin-top: 10%;
-    font-weight: 500;
-}
-.Clase-nosotros h2{
-    color: #3a3e3a;
-}
-.Clase-nosotros img{
-    margin-bottom: 10%;
-}
-
-footer  {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #D9D9D9;
-    max-height: 10%;
-    margin: 0 0;
-    left: 0px;
-}
-.der-icons{
-    font-size: 15px;
-    margin-top: 1%;
-}
-footer p{
-    color:#607C3C;
-    font-size: 15px;
 }
