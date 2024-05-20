@@ -135,9 +135,37 @@ h1{
     margin-right: 5%;
 }
 
+
+#Caracteristicas{
+    display: flex;
+    flex-direction: row;
+    margin: 15% 3%;
+    
+}
+.Carac img {
+    margin: 0 auto;
+} 
+
+.Carac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 3%;
+}
+.Carac p{
+    font-size: 1.3em;
+}
+.Carac h2{
+    font-size: 1.5em;
+}
 h2{
     font-size: 36px;
     color:#607C3C;
     text-wrap: pretty;
     text-align:left;
+}
+
+.ganar-recompensas{
+    font-weight: bold;
+    color:#ABC32F;
 }
