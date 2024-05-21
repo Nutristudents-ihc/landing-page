@@ -205,6 +205,140 @@ h2{
     margin-bottom: 10%;
 }
 
+
+#Testimonios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Testimonios h2{
+    margin: 0 auto;
+}
+
+.rect-Testi {
+    background-color: #809C13;
+    color: #FFFF;
+    margin: 5%;
+    padding: 20px; /* Aumentar el padding para dar más espacio interno */
+    border-radius: 12px; /* Opcional, para bordes redondeados */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px; /* Ajusta según sea necesario */
+    width: 450px;
+}
+
+.rect-Testi p {
+    margin: 8px 0; /* Añadir márgenes verticales */
+    font-weight: 500;
+    color: #FFFF;
+}
+.rect-Testi h2 {
+    margin: 8px 0; /* Añadir márgenes verticales */
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #FFFF;
+}
+
+.rect-Testi img.testimonial-img{
+    max-width: 100%; /* Ajustar la imagen para que no exceda el contenedor */
+    height: auto;
+    border-radius: 8px; /* Opcional, bordes redondeados para la imagen */
+    margin-bottom: 3px;
+}
+
+.rect-Testi img.star-img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+
+}
+
+#botones {
+    text-align: center;
+}
+
+#botones h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Precio {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10%; /* Espacio entre los botones */
+    margin-top: 50px; /* Margen superior para separar del contenido anterior */
+    margin-bottom: 50px; /* Añade espacio debajo de los botones */
+}
+
+.btn-pre {
+    background-color: #95D907; /* Color de fondo inicial */
+    color: #FFFFFF; /* Color del texto */
+    border: none;
+    padding: 20px; /* Aumenta el padding para acomodar el texto */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    width: 200px; /* Ancho fijo para los botones */
+    text-align: center; /* Centra el texto dentro del botón */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-pre h2 {
+    margin: 0;
+    font-size: 2em; /* Ajustar el tamaño de la fuente según sea necesario */
+}
+
+.btn-pre p {
+    margin: 8px 0 0; /* Margen superior para separar del título */
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.btn-pre ul {
+    list-style: none; /* Elimina el estilo de lista predeterminado */
+    padding: 0;
+    margin: 10px 0 0; /* Añade un poco de margen superior */
+    text-align: left; /* Alinea el texto a la izquierda para mejor legibilidad */
+}
+
+.btn-pre li {
+    margin: 5px 0; /* Añade un poco de margen entre los elementos de la lista */
+}
+
+.btn-pre:hover {
+    background-color: #7cad6a; /* Color de fondo al pasar el mouse */
+}
+
+#Video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#Video h2 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.Video_Cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video_Cont video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Opcional, para bordes redondeados */
+}
+
+
 footer  {
     width: 100%;
     display: flex;
