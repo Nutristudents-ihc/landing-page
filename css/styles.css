@@ -185,13 +185,14 @@ h2{
 .Clase-nosotros{
     margin-top: 5%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin: 3% 3%;
 }
 .Salvador,.Diego,.Jesus{
+    height: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     margin: 0 3%;
 }
 .Clase-nosotros p{
@@ -203,9 +204,13 @@ h2{
 }
 .Clase-nosotros img{
     margin-bottom: 10%;
+    border-radius: 300px;
+    width: 50%;
+    
+    box-shadow: 0 5px 10px 0 #000a;
 }
 
-
+/* Seccion testimonios*/
 #Testimonios{
     display: flex;
     flex-direction: column;
@@ -245,7 +250,7 @@ h2{
 .rect-Testi img.testimonial-img{
     max-width: 100%; /* Ajustar la imagen para que no exceda el contenedor */
     height: auto;
-    border-radius: 8px; /* Opcional, bordes redondeados para la imagen */
+    border-radius: 80px; /* Opcional, bordes redondeados para la imagen */
     margin-bottom: 3px;
 }
 
@@ -255,7 +260,31 @@ h2{
     margin-bottom: 5px;
 
 }
+/* Video */
+#Video {
+    text-align: center;
+    margin: 20px 0;
+}
 
+#Video h2 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.Video_Cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video_Cont video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Opcional, para bordes redondeados */
+}
+
+/* Seccion planes */
 #botones {
     text-align: center;
 }
@@ -274,7 +303,7 @@ h2{
 }
 
 .btn-pre {
-    background-color: #95D907; /* Color de fondo inicial */
+    background-color:  #95D907; /* Color de fondo inicial */
     color: #FFFFFF; /* Color del texto */
     border: none;
     padding: 20px; /* Aumenta el padding para acomodar el texto */
@@ -315,29 +344,11 @@ h2{
     background-color: #7cad6a; /* Color de fondo al pasar el mouse */
 }
 
-#Video {
-    text-align: center;
-    margin: 20px 0;
+.btn-pre h3{
+
+    color:#3a3e3a;
+    font-weight:bolder;
 }
-
-#Video h2 {
-    margin-bottom: 20px;
-    text-align: center;
-
-}
-
-.Video_Cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Video_Cont video {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Opcional, para bordes redondeados */
-}
-
 
 footer  {
     width: 100%;
