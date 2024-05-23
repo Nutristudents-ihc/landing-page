@@ -187,6 +187,7 @@ h2{
     display: flex;
     align-items: flex-start;
     margin: 3% 3%;
+    margin-bottom: 10%;
 }
 .Salvador,.Diego,.Jesus{
     height: 50%;
@@ -217,6 +218,7 @@ h2{
     align-items: center;
 }
 #Testimonios h2{
+
     margin: 0 auto;
 }
 
@@ -233,6 +235,7 @@ h2{
     align-items: center;
     height: 350px; /* Ajusta según sea necesario */
     width: 450px;
+    margin-bottom: 10%;
 }
 
 .rect-Testi p {
@@ -267,20 +270,22 @@ h2{
 }
 
 #Video h2 {
+    margin-top: 5%;
     margin-bottom: 20px;
     text-align: center;
 
 }
 
 .Video_Cont {
+
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10%;
 }
 
 .Video_Cont video {
-    max-width: 100%;
-    height: auto;
+    max-width: 40%;
     border-radius: 8px; /* Opcional, para bordes redondeados */
 }
 
@@ -315,6 +320,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10%;
 }
 
 .btn-pre h2 {
@@ -349,7 +355,55 @@ h2{
     color:#3a3e3a;
     font-weight:bolder;
 }
+/*FAQQQQ*/
+#FAQ{
+    margin-bottom: 10%;
+}
+#FAQ h2, #FAQ>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#FAQ details {
+    box-shadow: 0 0 5px 0 #0009;
+    margin: 3% 3%;
+}
+#FAQ summary {
+    padding: 1%;
+    list-style:none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color:#3a3e3a;
+    cursor: pointer;
+}
 
+#FAQ summary::before {
+    content: '\25BA'; /* Código Unicode para la flecha hacia la derecha */
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+    color: #607C3C; 
+}
+
+/* Rotar la flecha al expandir */
+#FAQ details[open] summary::before {
+    transform: rotate(90deg); /* Rotar la flecha 90 grados */
+}
+#FAQ details p, #FAQ details ul{
+    font-size: 1.1em;
+    color: #7cad6a;
+}
+
+#FAQ details p{
+    padding: 0 5% 3% 5%;
+}
+#FAQ details ul{
+    padding-bottom: 3%;
+}
+
+/*foooter*/
 footer  {
     width: 100%;
     display: flex;
