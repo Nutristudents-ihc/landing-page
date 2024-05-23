@@ -479,6 +479,33 @@ h2{
 #Form_Contacto button:hover{
     background-color: #607C3C;
 }
+/*Casos de éxito*/
+#Casos_exito{
+    margin-bottom: 10%;
+}
+#Casos_exito h2, #Casos_exito p{
+    text-align: center;
+}
+
+.Colaboraciones img{
+    width: 40%;
+    height: 50%;
+    margin: 5%;
+}
+.Colaboraciones{
+    display: flex;
+    margin: 0 5% 0 10%;
+}
+.Marca{
+    width: 33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Colaboraciones a{
+    color: rgba(126, 130, 113, 0.667);
+    text-align: center;
+}
 /*foooter*/
 footer  {
     width: 100%;
