@@ -225,7 +225,38 @@
                 </p>
             </details>
         </section>
+        <section id="Form_Contacto">
+            <form>
+                <h2>Formulario de contacto</h2>
 
+                <div class="form_input">
+                    <label for="nombre"> Nombre completo</label>
+                    <input type="text" required placeholder="John Doe" id="nombre">
+                </div>
+                <div class="form_input">
+                    <label for="email">Email</label>
+                    <input type="email" required placeholder="correo@email.com" id="email">
+                </div>
+                <div class="form_input">
+                    <label for="Tipo de suscripción">Tipo de usuario</label>
+                    <select name="Tipo de suscripción" id="Tipo de suscripción">
+                        <option value="user1">No soy usuario</option>
+                        <option value="user2">
+                            Suscripción gratis
+                        </option>
+                        <option value="user3">Suscripción mensual</option>
+                        <option value="user4">Suscripción anual</option>
+                    </select>
+                </div>
+                
+                <!--textarea-->
+                <div class="form_input">
+                    <label for="msj">Mensaje</label>
+                    <textarea rows="10" maxlength="300" required placeholder="Escribe aquí tu mensaje" id="msj"></textarea>
+                </div>
+
+                <button>Enviar</button>
+        
     </main>
     <footer>
         <div class="der-icons"> Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
