@@ -403,6 +403,82 @@ h2{
     padding-bottom: 3%;
 }
 
+/*Formulario contacto*/
+#Form_Contacto h2{
+    text-align: center;
+    margin:0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#Form_Contacto input, textarea, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border:none;
+    border: 1px solid #95D907;
+    box-shadow: 0px 0px 15px #0001;
+    background-color: transparent;
+    border-radius: 4px;
+    color:#eee;
+    resize: none;
+    font-size: 0.7em;
+    color:#3a3e3a;
+    
+}
+
+#Form_Contacto form{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 50px;
+    border-radius:8px ;
+    font-size: 16px;
+    margin-bottom: 10%;
+    border: 3px solid #95D907;
+}
+.form_input{
+    padding: 6px 20px;
+}
+#Form_Contacto option{
+    background-color: #696363;
+
+    color: white;
+    font-weight: bold;
+}
+
+#Form_Contacto textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 102px;
+    max-height: 100px;
+    font-family: sans-serif;
+    
+}
+
+#Form_Contacto label{
+    font-size: 0.9em;
+    line-height: 2;/*funciona como margin*/
+}
+#Form_Contacto button{
+    cursor: pointer;
+    position: relative;
+    color:#fff;
+    background-color: #ABC32F;
+    font-weight: bolder;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 #0004;
+    display: flex;
+    margin:1% 0 0 4%
+
+}
+#Form_Contacto button:hover{
+    background-color: #607C3C;
+}
 /*foooter*/
 footer  {
     width: 100%;
