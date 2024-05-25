@@ -185,13 +185,15 @@ h2{
 .Clase-nosotros{
     margin-top: 5%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin: 3% 3%;
+    margin-bottom: 10%;
 }
 .Salvador,.Diego,.Jesus{
+    height: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     margin: 0 3%;
 }
 .Clase-nosotros p{
@@ -203,8 +205,144 @@ h2{
 }
 .Clase-nosotros img{
     margin-bottom: 10%;
+    border-radius: 300px;
+    width: 50%;
+    
+    box-shadow: 0 5px 10px 0 #000a;
 }
 
+/* Seccion testimonios*/
+#Testimonios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Testimonios h2{
+
+    margin: 0 auto;
+}
+
+.rect-Testi {
+    background-color: #809C13;
+    color: #FFFF;
+    margin: 5%;
+    padding: 20px; /* Aumentar el padding para dar más espacio interno */
+    border-radius: 12px; /* Opcional, para bordes redondeados */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px; /* Ajusta según sea necesario */
+    width: 450px;
+    margin-bottom: 10%;
+}
+
+.rect-Testi p {
+    margin: 8px 0; /* Añadir márgenes verticales */
+    font-weight: 500;
+    color: #FFFF;
+}
+.rect-Testi h2 {
+    margin: 8px 0; /* Añadir márgenes verticales */
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #FFFF;
+}
+
+.rect-Testi img.testimonial-img{
+    max-width: 100%; /* Ajustar la imagen para que no exceda el contenedor */
+    height: auto;
+    border-radius: 80px; /* Opcional, bordes redondeados para la imagen */
+    margin-bottom: 3px;
+}
+
+.rect-Testi img.star-img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+
+}
+/* Video */
+#Video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#Video h2 {
+    margin-top: 5%;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.Video_Cont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.Video_Cont video {
+    max-width: 40%;
+    border-radius: 8px; /* Opcional, para bordes redondeados */
+}
+
+/* Seccion planes */
+#botones {
+    text-align: center;
+}
+
+#botones h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Precio {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10%; /* Espacio entre los botones */
+    margin-top: 50px; /* Margen superior para separar del contenido anterior */
+    margin-bottom: 50px; /* Añade espacio debajo de los botones */
+}
+
+.btn-pre {
+    background-color:  #95D907; /* Color de fondo inicial */
+    color: #FFFFFF; /* Color del texto */
+    border: none;
+    padding: 20px; /* Aumenta el padding para acomodar el texto */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    width: 200px; /* Ancho fijo para los botones */
+    text-align: center; /* Centra el texto dentro del botón */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.btn-pre h2 {
+    margin: 0;
+    font-size: 2em; /* Ajustar el tamaño de la fuente según sea necesario */
+}
+
+.btn-pre p {
+    margin: 8px 0 0; /* Margen superior para separar del título */
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.btn-pre ul {
+    list-style: none; /* Elimina el estilo de lista predeterminado */
+    padding: 0;
+    margin: 10px 0 0; /* Añade un poco de margen superior */
+    text-align: left; /* Alinea el texto a la izquierda para mejor legibilidad */
+}
+
+<<<<<<< feature/galeria-imagenes
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -256,6 +394,173 @@ h2{
 .item-content a:hover {
     text-decoration: underline;
 }
+=======
+.btn-pre li {
+    margin: 5px 0; /* Añade un poco de margen entre los elementos de la lista */
+}
+
+.btn-pre:hover {
+    background-color: #7cad6a; /* Color de fondo al pasar el mouse */
+}
+
+.btn-pre h3{
+
+    color:#3a3e3a;
+    font-weight:bolder;
+}
+/*FAQQQQ*/
+#FAQ{
+    margin-bottom: 10%;
+}
+#FAQ h2, #FAQ>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#FAQ details {
+    box-shadow: 0 0 5px 0 #0009;
+    margin: 3% 3%;
+}
+#FAQ summary {
+    padding: 1%;
+    list-style:none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color:#3a3e3a;
+    cursor: pointer;
+}
+
+#FAQ summary::before {
+    content: '\25BA'; /* Código Unicode para la flecha hacia la derecha */
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+    color: #607C3C; 
+}
+
+/* Rotar la flecha al expandir */
+#FAQ details[open] summary::before {
+    transform: rotate(90deg); /* Rotar la flecha 90 grados */
+}
+#FAQ details p, #FAQ details ul{
+    font-size: 1.1em;
+    color: #7cad6a;
+}
+
+#FAQ details p{
+    padding: 0 5% 3% 5%;
+}
+#FAQ details ul{
+    padding-bottom: 3%;
+}
+
+/*Formulario contacto*/
+#Form_Contacto h2{
+    text-align: center;
+    margin:0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#Form_Contacto input, textarea, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border:none;
+    border: 1px solid #95D907;
+    box-shadow: 0px 0px 15px #0001;
+    background-color: transparent;
+    border-radius: 4px;
+    color:#eee;
+    resize: none;
+    font-size: 0.7em;
+    color:#3a3e3a;
+    
+}
+
+#Form_Contacto form{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 50px;
+    border-radius:8px ;
+    font-size: 16px;
+    margin-bottom: 10%;
+    border: 3px solid #95D907;
+}
+.form_input{
+    padding: 6px 20px;
+}
+#Form_Contacto option{
+    background-color: #696363;
+
+    color: white;
+    font-weight: bold;
+}
+
+#Form_Contacto textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 102px;
+    max-height: 100px;
+    font-family: sans-serif;
+    
+}
+
+#Form_Contacto label{
+    font-size: 0.9em;
+    line-height: 2;/*funciona como margin*/
+}
+#Form_Contacto button{
+    cursor: pointer;
+    position: relative;
+    color:#fff;
+    background-color: #ABC32F;
+    font-weight: bolder;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 #0004;
+    display: flex;
+    margin:1% 0 0 4%
+
+}
+#Form_Contacto button:hover{
+    background-color: #607C3C;
+}
+/*Casos de éxito*/
+#Casos_exito{
+    margin-bottom: 10%;
+}
+#Casos_exito h2, #Casos_exito p{
+    text-align: center;
+}
+
+.Colaboraciones img{
+    width: 40%;
+    height: 50%;
+    margin: 5%;
+}
+.Colaboraciones{
+    display: flex;
+    margin: 0 5% 0 10%;
+}
+.Marca{
+    width: 33%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Colaboraciones a{
+    color: rgba(126, 130, 113, 0.667);
+    text-align: center;
+}
+/*foooter*/
+>>>>>>> develop
 footer  {
     width: 100%;
     display: flex;
