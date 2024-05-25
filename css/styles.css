@@ -147,11 +147,12 @@ h1{
     margin: 0 auto;
 }
 #nosotros >p{
-    margin: 1% 2%;
+    margin: 1% 2% 0 2%;
     font-weight: 500;
+    font-size: 1.3em;
 }
 .clase-nosotros{
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     align-items: flex-start;
     margin: 3% 3%;
@@ -165,13 +166,15 @@ h1{
     margin: 0 3%;
 }
 .clase-nosotros p{
-    margin-top: 10%;
+    margin-top: 5%;
     font-weight: 500;
+    font-size: 120%;
 }
 .clase-nosotros h2{
     color: #3a3e3a;
 }
 .clase-nosotros img{
+    margin-top: 0;
     margin-bottom: 10%;
     border-radius: 300px;
     width: 50%;
