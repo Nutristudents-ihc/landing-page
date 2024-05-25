@@ -93,10 +93,12 @@ nav a:hover{
 .btn-ini:hover{
     background-color: #3a3e3a;
 }
-#Llamado-a-la-accion{
+
+/*Seccion CTA*/
+#llamado-a-la-accion{
     display: flex;
     margin-top: 5%;
-    
+    margin-bottom: 10%;
 }
 p{
     color: #696363;
@@ -135,27 +137,69 @@ h1{
     margin-right: 5%;
 }
 
+/*Seccion nosotros*/
+#nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nosotros h2{
+    margin: 0 auto;
+}
+#nosotros >p{
+    margin: 1% 2%;
+    font-weight: 500;
+}
+.clase-nosotros{
+    margin-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    margin: 3% 3%;
+    margin-bottom: 10%;
+}
+.Salvador,.Diego,.Jesus{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 3%;
+}
+.clase-nosotros p{
+    margin-top: 10%;
+    font-weight: 500;
+}
+.clase-nosotros h2{
+    color: #3a3e3a;
+}
+.clase-nosotros img{
+    margin-bottom: 10%;
+    border-radius: 300px;
+    width: 50%;
+    
+    box-shadow: 0 5px 10px 0 #000a;
+}
 
-#Caracteristicas{
+/*Seccion beneficios exclusivos*/
+#caracteristicas{
     display: flex;
     flex-direction: row;
-    margin: 15% 3%;
+    margin: 0 3% 10% 3%;
     
 }
-.Carac img {
+.carac img {
     margin: 0 auto;
 } 
 
-.Carac{
+.carac{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 3%;
 }
-.Carac p{
+.carac p{
     font-size: 1.3em;
 }
-.Carac h2{
+.carac h2{
     font-size: 1.5em;
 }
 h2{
@@ -170,54 +214,13 @@ h2{
     color:#ABC32F;
 }
 
-#Nosotros{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#Nosotros h2{
-    margin: 0 auto;
-}
-#Nosotros >p{
-    margin: 1% 2%;
-    font-weight: 500;
-}
-.Clase-nosotros{
-    margin-top: 5%;
-    display: flex;
-    align-items: flex-start;
-    margin: 3% 3%;
-    margin-bottom: 10%;
-}
-.Salvador,.Diego,.Jesus{
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    margin: 0 3%;
-}
-.Clase-nosotros p{
-    margin-top: 10%;
-    font-weight: 500;
-}
-.Clase-nosotros h2{
-    color: #3a3e3a;
-}
-.Clase-nosotros img{
-    margin-bottom: 10%;
-    border-radius: 300px;
-    width: 50%;
-    
-    box-shadow: 0 5px 10px 0 #000a;
-}
-
 /* Seccion testimonios*/
-#Testimonios{
+#testimonios{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#Testimonios h2{
+#testimonios h2{
 
     margin: 0 auto;
 }
@@ -226,8 +229,8 @@ h2{
     background-color: #809C13;
     color: #FFFF;
     margin: 5%;
-    padding: 20px; /* Aumentar el padding para dar más espacio interno */
-    border-radius: 12px; /* Opcional, para bordes redondeados */
+    padding: 20px; 
+    border-radius: 12px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -239,21 +242,21 @@ h2{
 }
 
 .rect-Testi p {
-    margin: 8px 0; /* Añadir márgenes verticales */
+    margin: 8px 0;
     font-weight: 500;
     color: #FFFF;
 }
 .rect-Testi h2 {
-    margin: 8px 0; /* Añadir márgenes verticales */
+    margin: 8px 0; 
     font-weight: 800;
     font-size: 1.5em;
     color: #FFFF;
 }
 
 .rect-Testi img.testimonial-img{
-    max-width: 100%; /* Ajustar la imagen para que no exceda el contenedor */
+    max-width: 100%; 
     height: auto;
-    border-radius: 80px; /* Opcional, bordes redondeados para la imagen */
+    border-radius: 80px;
     margin-bottom: 3px;
 }
 
@@ -263,60 +266,62 @@ h2{
     margin-bottom: 5px;
 
 }
+
+
 /* Video */
-#Video {
+#video {
     text-align: center;
     margin: 20px 0;
 }
 
-#Video h2 {
+#video h2 {
     margin-top: 5%;
     margin-bottom: 20px;
     text-align: center;
 
 }
 
-.Video_Cont {
-
+.video_Cont {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10%;
 }
 
-.Video_Cont video {
-    max-width: 40%;
-    border-radius: 8px; /* Opcional, para bordes redondeados */
+.video_Cont video {
+    width: 20%;
+    min-width: 300px;
+    border-radius: 8px;
 }
 
 /* Seccion planes */
-#botones {
+#precios {
     text-align: center;
 }
 
-#botones h2 {
+#precios h2 {
     margin: 0 auto;
     text-align: center;
 }
 
-.Precio {
+.precio {
     display: flex;
-    justify-content: center; /* Centra los botones horizontalmente */
-    gap: 10%; /* Espacio entre los botones */
-    margin-top: 50px; /* Margen superior para separar del contenido anterior */
-    margin-bottom: 50px; /* Añade espacio debajo de los botones */
+    justify-content: center; 
+    gap: 10%;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
 }
 
 .btn-pre {
-    background-color:  #95D907; /* Color de fondo inicial */
-    color: #FFFFFF; /* Color del texto */
+    background-color:  #95D907; 
+    color: #FFFFFF; 
     border: none;
-    padding: 20px; /* Aumenta el padding para acomodar el texto */
+    padding: 20px;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
-    width: 200px; /* Ancho fijo para los botones */
-    text-align: center; /* Centra el texto dentro del botón */
+    transition: background-color 0.3s ease; 
+    width: 200px; 
+    text-align: center; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -325,24 +330,31 @@ h2{
 
 .btn-pre h2 {
     margin: 0;
-    font-size: 2em; /* Ajustar el tamaño de la fuente según sea necesario */
+    font-size: 2em;
 }
 
 .btn-pre p {
-    margin: 8px 0 0; /* Margen superior para separar del título */
+    margin: 8px 0 0; 
     font-size: 1.1em;
     font-weight: 600;
     color: #FFFFFF;
 }
 
 .btn-pre ul {
-    list-style: none; /* Elimina el estilo de lista predeterminado */
+    list-style: none;
     padding: 0;
-    margin: 10px 0 0; /* Añade un poco de margen superior */
-    text-align: left; /* Alinea el texto a la izquierda para mejor legibilidad */
+    margin: 10px 0 0;
+    text-align: left; 
 }
 
-<<<<<<< feature/galeria-imagenes
+/*Seccion galería de imágenes*/
+#galeria-desktop, #galeria-mobile{
+    margin-bottom: 10%;
+}
+#galeria-mobile h2, #galeria-desktop h2{
+    margin: 0 auto 1%;
+    text-align: center;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -360,6 +372,7 @@ h2{
     display: flex;
     flex-direction: column;
 }
+
 
 .item img {
     max-width: 100%;
@@ -394,7 +407,7 @@ h2{
 .item-content a:hover {
     text-decoration: underline;
 }
-=======
+
 .btn-pre li {
     margin: 5px 0; /* Añade un poco de margen entre los elementos de la lista */
 }
@@ -408,6 +421,7 @@ h2{
     color:#3a3e3a;
     font-weight:bolder;
 }
+
 /*FAQQQQ*/
 #FAQ{
     margin-bottom: 10%;
@@ -457,7 +471,7 @@ h2{
 }
 
 /*Formulario contacto*/
-#Form_Contacto h2{
+#form_Contacto h2{
     text-align: center;
     margin:0;
     margin-bottom: 10px;
@@ -465,7 +479,7 @@ h2{
     font-size: 1.4em;
     padding: 10px;
 }
-#Form_Contacto input, textarea, select{
+#form_Contacto input, textarea, select{
     width: 100%;
     box-sizing: border-box;
     padding: 6px 12px;
@@ -481,7 +495,7 @@ h2{
     
 }
 
-#Form_Contacto form{
+#form_Contacto form{
     background-color: transparent;
     padding: 20px 0;
     max-width: 600px;
@@ -496,14 +510,14 @@ h2{
 .form_input{
     padding: 6px 20px;
 }
-#Form_Contacto option{
+#form_Contacto option{
     background-color: #696363;
 
     color: white;
     font-weight: bold;
 }
 
-#Form_Contacto textarea{
+#form_Contacto textarea{
     min-width: 100%;
     resize: none;
     min-height: 102px;
@@ -512,11 +526,11 @@ h2{
     
 }
 
-#Form_Contacto label{
+#form_Contacto label{
     font-size: 0.9em;
     line-height: 2;/*funciona como margin*/
 }
-#Form_Contacto button{
+#form_Contacto button{
     cursor: pointer;
     position: relative;
     color:#fff;
@@ -529,38 +543,38 @@ h2{
     margin:1% 0 0 4%
 
 }
-#Form_Contacto button:hover{
+#form_Contacto button:hover{
     background-color: #607C3C;
 }
 /*Casos de éxito*/
-#Casos_exito{
+#casos_exito{
     margin-bottom: 10%;
 }
-#Casos_exito h2, #Casos_exito p{
+#casos_exito h2, #Casos_exito p{
     text-align: center;
 }
 
-.Colaboraciones img{
+.colaboraciones img{
     width: 40%;
     height: 50%;
     margin: 5%;
 }
-.Colaboraciones{
+.colaboraciones{
     display: flex;
     margin: 0 5% 0 10%;
 }
-.Marca{
+.marca{
     width: 33%;
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-.Colaboraciones a{
+.colaboraciones a{
     color: rgba(126, 130, 113, 0.667);
     text-align: center;
 }
 /*foooter*/
->>>>>>> develop
+
 footer  {
     width: 100%;
     display: flex;
