@@ -561,7 +561,7 @@ h2{
 }
 /*Casos de éxito*/
 #casos_exito{
-    margin-bottom: 10%;
+    margin: 0 5% 10% 5%;
 }
 #casos_exito h2, #Casos_exito p{
     text-align: center;
