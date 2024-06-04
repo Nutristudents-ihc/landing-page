@@ -21,40 +21,39 @@ header {
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
 }
 
 nav img {
-    width: auto;
-    height: 40px;
+    position: absolute;
+    width: 100px;
     margin: 0;
+    top:15px;
 }
 
 .menu {
     list-style: none;
     display: flex;
-    flex: 1;
     justify-content: flex-end;
     margin: 0;
     padding: 0;
+    position: relative;
+    top:-10px;
 }
 
 .menu li {
     margin: 3% 10px;
+    display: inline-block;
+    position: relative;
+    right: 0;
 }
 
 .menu a {
     color: #607C3C;
+    
     font-weight: bold;
-}
-
-.btn-nav {
-    display: flex;
-    align-items: center;
 }
 
 /* Responsive Design */
@@ -62,7 +61,7 @@ nav img {
 
 
     .menu {
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .menu li {
@@ -611,6 +610,7 @@ h2{
     width: 40%;
     height: 50%;
     margin: 5%;
+    object-fit:contain;
 }
 .colaboraciones{
     display: flex;
